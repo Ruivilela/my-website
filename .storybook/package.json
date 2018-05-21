@@ -1,14 +1,10 @@
 {
   "name": "webpack-project",
   "version": "1.0.0",
-  "description": "portfolio",
+  "description": "portfolio's storybook",
   "scripts": {
-    "start:dev": "webpack-dev-server --config config/webpack.config.js --mode development",
-    "storybook": "start-storybook -p 9001 -c .storybook"
+    "storybook": "start-storybook -p 9001 -c ./"
   },
-  "keywords": [
-    "webpack"
-  ],
   "author": "Rui Vilela",
   "license": "ISC",
   "dependencies": {
@@ -16,18 +12,15 @@
     "vuex": "^3.0.1"
   },
   "devDependencies": {
+    "@storybook/cli": "^3.4.5",
+    "@storybook/vue": "^3.4.5",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
     "css-loader": "^0.28.11",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.12.0",
     "vue-loader": "^14.2.1",
     "vue-style-loader": "^4.1.0",
     "vue-template-compiler": "^2.5.16",
-    "webpack": "^4.8.3",
-    "webpack-cli": "^2.1.3",
-    "webpack-dev-server": "^3.1.4"
+    "webpack": "^3.12.0"
   }
 }
