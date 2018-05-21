@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "portfolio's storybook",
   "scripts": {
-    "storybook": "start-storybook -p 9001 -c ./"
+    "start": "start-storybook -p 9001 -c ./"
   },
   "author": "Rui Vilela",
   "license": "ISC",

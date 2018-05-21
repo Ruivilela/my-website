@@ -4,7 +4,7 @@
   "description": "portfolio",
   "scripts": {
     "start:dev": "webpack-dev-server --config config/webpack.config.js --mode development",
-    "storybook": "start-storybook -p 9001 -c .storybook"
+    "storybook": "cd .storybook; npm start"
   },
   "keywords": [
     "webpack"
