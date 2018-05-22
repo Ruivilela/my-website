@@ -1,11 +1,10 @@
 import Vue from 'vue';
-import App from './app/index.vue';
+import App from './app';
 import store from './store';
 
-const src = new Vue({
+export default new Vue({
   el: '#app',
   store,
   render: r => r(App),
 });
 
-export default src;

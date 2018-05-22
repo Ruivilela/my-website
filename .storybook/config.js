@@ -1,9 +1,9 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
 import { configure } from '@storybook/vue';
-import Item from './../src/UI/item/index.vue';
+import vueComponents from './registry';
 
-Vue.component('ui-item', Item);
+vueComponents();
 
 function loadStories() {
   require('./stories');
